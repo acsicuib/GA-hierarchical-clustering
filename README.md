@@ -1,22 +1,26 @@
-Para la ejecución del código
+This repository includes the source code, the data and the plots for the paper entitled "Optimizing fog colony layout and service placement through genetic algorithms and hierarchical clustering" and submitted to Journal of Systems Architecture for evaluation.
+
+
+
+For the execution of the optimization algorithm
 
 ```
 python main-GAcolonyPartitionV4.py
 ```
 
-Para la generación de los gráficos y el análisis de los datos
+For the analysis of the results and the generation of the plots
 
 ```
 python plotsGeneration.py
 ```
 
-Para la configuración de los experimentos antes de su ejecución editar el archivo configuration.py
+The experiments are set up by editing the configuration file "configuration.py"
 
 ```python
-appNumberRange = range(20,61,20) #configuration para el experimento del articulo
-nodeNumberRange = range(100,301,100) #configuracion para el experimento del articulo
-ILP_METHOD = False
-numberGenerations = 100 #configuracion para el experimento del articulo
-randomSeedGenetic = [1,11,21,31,41,51,61,71,81,91]
-rangeOfExperimentsRepetitions = range(0,10)
+appNumberRange = range(20,61,20) #number of applications
+nodeNumberRange = range(100,301,100) #number of fog devices
+ILP_METHOD = False #required for the use of the Greedy algorithm in the service placement phase
+numberGenerations = 100 #number of generations
+randomSeedGenetic = [1,11,21,31,41,51,61,71,81,91] #different random seeds for each experiment repetition
+rangeOfExperimentsRepetitions = range(0,10) #number of experiment repetitions for each experimental scenario
 ```

@@ -28,15 +28,19 @@ for appNumber in appNumberRange:
         oneExperiment = (appNumber,nodeNumber)
         experiments2execute.append(oneExperiment)
 
+experiments2execute =[(20,50),(20, 100), (20, 200), (20, 300), (40, 100), (40, 200), (40, 300), (60, 100), (60, 200)]
+
+#experiments2execute =[(20,50),(20, 100)]
 
 ILP_METHOD = False
 numberGenerations = 100 #configuracion para el experimento del articulo
-numberGenerations = 3
+#numberGenerations = 3
 
 
 
 randomSeedGenetic = [1,11,21,31,41,51,61,71,81,91]
-rangeOfExperimentsRepetitions = range(0,3)
+rangeOfExperimentsRepetitions = range(0,10)
+#rangeOfExperimentsRepetitions = range(0,4)
 
 
 
