@@ -25,5 +25,4 @@ randomSeedGenetic = [1,11,21,31,41,51,61,71,81,91] #different random seeds for e
 rangeOfExperimentsRepetitions = range(0,10) #number of experiment repetitions for each experimental scenario
 ```
 
-Folder "results" contains data and the plots of the experimentation phase for all the repetitions of all the experiments scenarios. These results are organized in folder. Each folder contains the results of one of the 10 repetitions of one of the 9 experiment scenarios.
-
+Folder "results" contains data and the plots of the experimentation phase for all the repetitions of all the experiments scenarios. These results are organized in folder. Each folder contains the results of one of the 10 repetitions of one of the 9 experiment scenarios. The forlder name indicates the number of repetition and the number of applications and nodes in the expriment sceniaro.
