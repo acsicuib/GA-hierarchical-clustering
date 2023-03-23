@@ -1,4 +1,4 @@
-This repository includes the source code, the data and the plots for the paper entitled "Optimizing fog colony layout and service placement through genetic algorithms and hierarchical clustering" and submitted to Journal of Systems Architecture for evaluation.
+This repository includes the source code, the data and the plots for the paper entitled "Optimizing fog colony layout and service placement through genetic algorithms and hierarchical clustering" and submitted to the journal "Expert systems with applications" for evaluation.
 
 
 
