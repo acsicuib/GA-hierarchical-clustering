@@ -1,6 +1,25 @@
-This repository includes the source code, the data and the plots for the paper entitled "Optimizing fog colony layout and service placement through genetic algorithms and hierarchical clustering" and submitted to the journal "Expert systems with applications" for evaluation.
+This repository includes the source code, the data and the plots for the paper entitled "Optimizing fog colony layout and service placement through genetic algorithms and hierarchical clustering", published in the journal "Expert systems with applications":
 
+```
+Francisco Talavera, Isaac Lera, Carlos Juiz, Carlos Guerrero, Optimizing fog colony layout and service placement through genetic algorithms and hierarchical clustering, Expert Systems with Applications, Volume 254, 2024, 124372, ISSN 0957-4174, https://doi.org/10.1016/j.eswa.2024.124372.
+```
 
+If you would consider to cite the paper, you could use this bibtex record:
+
+```
+@article{TALAVERA2024124372,
+title = {Optimizing fog colony layout and service placement through genetic algorithms and hierarchical clustering},
+journal = {Expert Systems with Applications},
+volume = {254},
+pages = {124372},
+year = {2024},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2024.124372},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417424012387},
+author = {Francisco Talavera and Isaac Lera and Carlos Juiz and Carlos Guerrero},
+keywords = {Fog computing, Fog colony, Service placement, Optimization, Hybrid genetic algorithm}
+}
+```
 
 For the execution of the optimization algorithm
 
