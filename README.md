@@ -21,6 +21,13 @@ keywords = {Fog computing, Fog colony, Service placement, Optimization, Hybrid g
 }
 ```
 
+**Acknowledgment**:
+
+This research was supported by MICIU/AEI/10.13039/501100011033, Spain [grant number PID2021-128071OB-I00] and FEDER,UE, Spain [grant number PID2021-128071OB-I00].
+
+
+**Execution**:
+
 For the execution of the optimization algorithm
 
 ```
